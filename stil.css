@@ -1,0 +1,167 @@
+/* Basic CSS reset */
+::after,
+::before {
+        margin:0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+
+    }
+/* Set background and font styles */
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+/* Set the background image */
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Header styles */
+.menu_punkter {
+    display: block;
+    margin-top: 60px;
+    text-align:center
+}
+
+header h1 {
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+header h2{
+    font-size: 1000px ;
+    margin-top: 10px;
+
+}
+
+.main_logo {
+    width: 250px;
+    position: absolute;
+    right: 40%;
+    top: -10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+nav li {
+    display: inline;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b7b0a6;
+    font-size: 25px;
+    margin: 60px;
+}
+
+.velkommen {
+    margin-top: 120px;
+    margin-bottom: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.velkommen p {
+    font-size: 70px;
+    color: #b7b0a6;
+    font-weight: 300;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+/* Style the icon row */
+.icon-row {
+    display: flex;
+    margin: 50px 50px 50px;
+}
+
+/* Style the container for icon rows */
+.icon-rows {
+    display: flex;
+    flex-direction: row; /* Arrange rows vertically */
+    align-items: center;
+    width: 500px;
+    height: auto;
+   
+}
+/* Style the round icon */
+.round-icon {
+    width:200px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the image inside the icon */
+.round-icon img {
+    max-width: 10px;
+    max-height: auto;
+    border-radius: 10%;
+}
+
+/* Billede galleri*/
+
+figure {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  figcaption {
+    margin-top: 15px;
+  }
+  
+  img {
+    border: none;
+    height: auto;
+    display: block;
+    background: #ccc;
+    transition: transform .2s ease-in-out;
+  }
+  
+  .figur-titel {
+    text-align: center;
+  }
+
+
+
+.artikel-g {
+    display: flex;
+    justify-content: space-between;
+}
+
+.artikel-g a {
+    text-decoration: none;
+    color: #b7b0a6;
+    font-size: 25px;
+}
+
+.figur{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 40px;
+}
+
